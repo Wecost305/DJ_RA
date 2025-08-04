@@ -2,7 +2,7 @@ document.getElementById('songRequestForm').addEventListener('submit', function(e
     event.preventDefault();
 
     // ¡IMPORTANTE! Usa tu URL de Ngrok (estática o la que generes cada vez)
-    const ngrokApiUrl = 'https://5c94a8bd9584.ngrok-free.app';
+    const ngrokApiUrl = 'https://5c94a8bd9584.ngrok-free.app/solicitud';
     
     const statusMessage = document.getElementById('status-message' );
     const button = document.querySelector('.neon-button');
@@ -46,3 +46,4 @@ document.getElementById('songRequestForm').addEventListener('submit', function(e
         button.textContent = 'Enviar Solicitud';
     });
 });
+
